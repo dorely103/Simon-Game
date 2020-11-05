@@ -17,7 +17,7 @@ $(document).on("keypress", function() {
 
 $(document).on("click", ".btn", function() {
   var eventID = this.id;
-  $(this).fadeOut(5).fadeIn(5).fadeOut(5).fadeIn(5);
+  $(this).fadeOut(35).fadeIn(35).fadeOut(35).fadeIn(35);
   makeSound(eventID);
   userClickedPattern.push(eventID);
   checkAnswer(userClickedPattern.length - 1);
@@ -60,7 +60,7 @@ function nextSequence() {
   var randomChosenColor = buttonColors[randomNumber];
   gamePattern.push(randomChosenColor);
   var randomID = "#" + randomChosenColor;
-  $(randomID).fadeOut(5).fadeIn(5).fadeOut(5).fadeIn(5);
+  $(randomID).fadeOut(35).fadeIn(35).fadeOut(35).fadeIn(35);
   makeSound(randomID.slice(1, ));
 
 
