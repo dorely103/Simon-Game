@@ -10,6 +10,14 @@ body {
   color: #FEF2BF;
 }
 
+#start-button {
+  background-color: #011F3F;
+  color: #fff;
+  border: 2px solid #FEF2BF;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .container {
   display: block;
   width: 50%;
